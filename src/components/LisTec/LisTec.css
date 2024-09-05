@@ -1,0 +1,29 @@
+.tec-title h1 {
+  margin: 80px 0px 80px 0px;
+}
+
+
+.tec-grid{
+  
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px 5px;
+}
+
+.tec-grid img {
+  height: 100px;
+  box-shadow: 0 0 10px ;
+  border: 1px solid #ffffff;
+  border-radius: 37px  0 37px 0;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+ 
+}
+
+.tec-grid img:hover {
+  height: 110px;
+  
+}
+
+
