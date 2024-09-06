@@ -1,0 +1,9 @@
+footer {
+  align-items: center;
+  border-top: 1px solid #333;
+}
+
+.footer-icons {
+  display:flex;
+  gap: 20px;
+}

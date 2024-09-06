@@ -22,7 +22,7 @@
 }
 
 .tec-grid img:hover {
-  height: 110px;
+  transform: translateY(-5px);
   
 }
 
