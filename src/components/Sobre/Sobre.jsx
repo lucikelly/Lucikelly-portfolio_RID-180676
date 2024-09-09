@@ -6,7 +6,7 @@ function Sobre () {
       <h1 >Sobre mim</h1>
 
     
-        <Timeline/>
+        <Timeline />
      
     </div>
 
