@@ -77,7 +77,8 @@ function TimeLine (){
         <div className="text-time-line">
         <h3 >Atuação Front-end</h3>
          <p>
-          Trabalhei em parceria com a DNC na realização do front-end, de uma plataforma de alugueis de jogos de tabuleiro.
+          Trabalhei em parceria com a DNC na realização do front-end para projeto de desevolvimento uma plataforma de alugueis de jogos de tabuleiro para 
+          empresa Sócio do Tabuleiro.
          </p>
         </div>
         

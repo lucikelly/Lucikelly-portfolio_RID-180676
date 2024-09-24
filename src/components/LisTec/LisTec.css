@@ -25,5 +25,8 @@
   transform: translateY(-5px);
   
 }
+.tec-grid a {
+  text-decoration: none;
+}
 
 

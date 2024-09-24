@@ -16,22 +16,23 @@ import godot from "../../assets/godot-original.svg"
 
 
 
+
 function LisTec () {
   return(
     <div className="tec-title container" id="tecnologias">
       <h1 >Tecnologias</h1>
 
       <div className="tec-grid container "> 
-          <img src={java}/>
-          <img src={c}/>
-          <img src={html}/>
-          <img src={css}/>
-          <img src={javascript}/>
-          <img src={typescript}/>
-          <img src={react}/>
-          <img src={nextjs}/>
-          <img src={vitejs}/>
-          <img src={godot}/>
+          <a href="https://www.java.com/pt-BR/" target="_blanck"><img src={java}/></a>
+          <a href="https://devdocs.io/cpp/" target="_blanck"><img src={c}/></a>
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blanck"><img src={html}/></a>
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blanck"><img src={css}/></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blanck"><img src={javascript}/></a>
+          <a href="https://www.typescriptlang.org/pt/docs/" target="_blanck"><img src={typescript}/></a>
+          <a href="https://pt-br.react.dev/" target="_blanck"><img src={react}/></a>
+          <a href="https://nextjs.org/" target="_blanck"><img src={nextjs}/></a>
+          <a href="https://vitejs.dev/" target="_blanck"><img src={vitejs}/></a>
+          <a href="https://godotengine.org/" target="_blanck"><img src={godot}/></a>
       </div>
     </div>
 
