@@ -8,6 +8,7 @@ import javascript from "../../assets/javascript.svg"
 import react from "../../assets/react-original.svg"
 import nextjs from "../../assets/nextjs-original.svg"
 import vitejs from "../../assets/vitejs-original.svg"
+import typescript from "../../assets/typescript.svg"
 import godot from "../../assets/godot-original.svg"
 
 
@@ -26,6 +27,7 @@ function LisTec () {
           <img src={html}/>
           <img src={css}/>
           <img src={javascript}/>
+          <img src={typescript}/>
           <img src={react}/>
           <img src={nextjs}/>
           <img src={vitejs}/>
