@@ -1,24 +1,29 @@
 .styled-card {
-  box-shadow: 0 0 10px ;
+  box-shadow: 0 0 0.6rem ;
   border: 1px solid #ffffff;
-  border-radius: 37px  0 37px 0;
-  width: 400px;
-  height: 500px;
+  border-radius: 2.3rem  0 2.3rem 0;
+  width: 25rem;
+  height: 31.5rem;
   text-align: center;
-  padding: 15px 30px;
-  gap: 20px;
+  padding: 0.9rem 1.9rem;
+  gap: 1.25rem;
 
 }
 
+.styled-card img {
+  height: 14.4rem;
+  width: 24rem;
+}
+
 .styled-card h2 {
-  font-size: 18px;
+  font-size: 1.1rem;
 
 }
 
 .styled-card p {
-  font-size: 12px;
+  font-size: 0.8rem;
   font-weight: 200;
-  margin-bottom: 30px;
+  margin-bottom: 1.9rem;
 }
 
 

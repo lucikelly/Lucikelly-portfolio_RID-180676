@@ -113,10 +113,89 @@ p {
 
 @media(max-width: 768px) {
   .container{
-    width: 90%;
+    width: 100%;
   }
   .mobile-fd-column{
     flex-direction: column;
   }
+
+  .tec-grid{
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-grid{
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.125rem 1.9rem;
+  }
+
+
+
+  nav {
+    margin-left: 1rem;
+    margin-bottom: 6.25rem;
+ 
+    
+  }
+
+  nav a {
+    margin: 0 0 0 1rem;
+    font-size: 0.8rem;
+  
+  }
+
+  .icons {
+   
+    margin-right: 2rem;
+    gap: 0rem 1rem;
+  }
+  footer {
+
+    align-items: center;
+    border-top: 0.064rem solid #333;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+  
+    font-size: 2rem;
+  }
+  
+  
+  
+  .hero-text p{
+    margin-left: 0;
+    width: 50vh;
+    font-size: 1rem;
+  }
+  
+  .button-s {
+    margin: 0rem 0 0 0rem;
+  }
+
+
+  .styled-card {
+    width: 17rem;
+    height: 34rem;
+  }
+  
+.styled-card img {
+  height: 10rem;
+  width: 16rem;
+}
+
+.styled-card a {
+ 
+  border: 1px solid #c8c8c8;
+  font-weight: 200;
+  font-size: 0.8rem;
+  border-radius: 30px;
+  padding: 0.5rem;
+}
 }
 

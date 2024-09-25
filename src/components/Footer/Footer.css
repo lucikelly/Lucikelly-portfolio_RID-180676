@@ -1,9 +1,9 @@
 footer {
   align-items: center;
-  border-top: 1px solid #333;
+  border-top: 0.064rem solid #333;
 }
 
 .footer-icons {
   display:flex;
-  gap: 20px;
+  gap: 1.25rem;
 }

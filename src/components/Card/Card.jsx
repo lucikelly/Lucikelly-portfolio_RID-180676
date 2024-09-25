@@ -4,7 +4,7 @@ import "./Card.css"
 function Card (props) {
   return (
     <div className="styled-card" >
-      <img src={props.image} height="230px" width="380px"/>
+      <img src={props.image} />
       <h2> {props.titleProject}</h2>
       <p> {props.descricao } </p>
       <div className="d-flex jc-space-b">

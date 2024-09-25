@@ -1,5 +1,5 @@
 .tec-title h1 {
-  margin: 80px 0px 80px 0px;
+  margin: 5rem 0 5rem 0;
 }
 
 
@@ -7,16 +7,16 @@
   
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 50px 5px;
+  gap: 3rem 0.31rem;
 }
 
 .tec-grid img {
-  height: 100px;
-  box-shadow: 0 0 10px ;
-  border: 1px solid #ffffff;
-  border-radius: 37px  0 37px 0;
+  height: 6.25rem;
+  box-shadow: 0 0 0.625rem ;
+  border: 0.063rem solid #ffffff;
+  border-radius: 2.31rem  0 2.31rem 0;
   text-align: center;
-  padding: 30px;
+  padding: 1.875rem;
   cursor: pointer;
  
 }

@@ -9,7 +9,7 @@ function Hero (){
          Desenvolvedora Front-End, Academica de Ciências da computação, futura Desenvolvedora Full-Stack.
       </p>
       <div className="button-s">
-        <a href="#sobre"> 
+        <a href="https://drive.google.com/file/d/1k8y8iH46Ajjn0wSU8EK5KcfKhcv1CWRu/view?usp=sharing" target="_blanck"> 
         <Button title="Saiba mais" />
         </a>
          
