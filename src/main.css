@@ -135,23 +135,29 @@ p {
 
 
   nav {
-    margin-left: 1rem;
-    margin-bottom: 6.25rem;
- 
-    
+    margin: 2rem 2rem 2rem 1rem;
   }
 
   nav a {
-    margin: 0 0 0 1rem;
-    font-size: 0.8rem;
+    margin: 0 0 0 0.8rem;
+    font-size: 1rem;
   
   }
 
+  #headerInverso{
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+
   .icons {
-   
-    margin-right: 2rem;
+    width: 30%;
+    margin-left: 2rem;
     gap: 0rem 1rem;
   }
+
+
+ 
+
   footer {
 
     align-items: center;

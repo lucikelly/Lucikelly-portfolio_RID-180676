@@ -7,7 +7,7 @@ import animationTheme from "../../assets/animationtheme.gif"
 function Header () {
   return (
      <header >
-      <div className='d-flex jc-space-b al-start' >
+      <div className='d-flex jc-space-b al-start' id='headerInverso' >
       <nav > 
           <ul className='d-flex'>
             <li><a href='#projetos'>Projetos</a></li>
@@ -15,10 +15,10 @@ function Header () {
             <li><a href='#sobre'>Sobre mim</a></li>
           </ul>
         </nav>
-      <div className='icons' >
+      <div className='icons jc-space-b ' >
        
-        <a href='https://github.com/lucikelly/' target="_blank"><img src={github} height="25px"/></a>
-        <a href='https://www.linkedin.com/in/lucikellysantos/' target="_blank"><img src={linkedin} height="25px"/></a>
+        <a href='https://github.com/lucikelly/' target="_blank" className='iconsImg' ><img src={github} height="30px"/></a>
+        <a href='https://www.linkedin.com/in/lucikellysantos/' target="_blank" className='iconsImg' ><img src={linkedin} height="30px"/></a>
         <img src={animationTheme} width={60} height={30}/>
       </div>
    
