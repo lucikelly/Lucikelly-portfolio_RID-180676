@@ -1,12 +1,16 @@
+/* eslint-disable react/prop-types */
 import './Header.css'
-import linkedin from "../../assets/linkedin.png"
-import github from "../../assets/github.png"
-import animationTheme from "../../assets/animationtheme.gif"
 
 
-function Header () {
+
+
+
+
+function Header (props) {
+
+ 
   return (
-     <header >
+     <header>
       <div className='d-flex jc-space-b al-start' id='headerInverso' >
       <nav > 
           <ul className='d-flex'>
@@ -17,9 +21,9 @@ function Header () {
         </nav>
       <div className='icons jc-space-b ' >
        
-        <a href='https://github.com/lucikelly/' target="_blank" className='iconsImg' ><img src={github} height="30px"/></a>
-        <a href='https://www.linkedin.com/in/lucikellysantos/' target="_blank" className='iconsImg' ><img src={linkedin} height="30px"/></a>
-        <img src={animationTheme} width={60} height={30}/>
+        <a href='https://github.com/lucikelly/' target="_blank" className='iconsImg' >{<img src={props.icon} height="30px"/>}</a>
+        <a href='https://www.linkedin.com/in/lucikellysantos/' target="_blank" className='iconsImg' ><img src={props.icon2} height="30px"/></a>
+        <button className='button-header' onClick={props.fun} >{props.title}</button>
       </div>
    
       </div>
